@@ -1,13 +1,20 @@
 # evaporation_prediction_using_pycaret
-PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows. It is an end-to-end machine learning and model management tool that speeds up the experiment cycle exponentially and makes you more productive.
+```
+PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows. 
+It is an end-to-end machine learning and model management tool that speeds up the experiment cycle exponentially
+and makes you more productive.
+```
 
 PyCaret for Machine Learning.
-PyCaret is used for:
+## PyCaret is used for:
+```
  ~Classification
  ~Regression
  ~Clustering
+ ```
  
-Steps involved in this project:
+## Steps involved in this project:
+```
 ~ Loading the Data via Pandas library
 ~ Cleaning the Data
 ~ Setting up the Environment, (and spliting the data into 80% training and 20% testing.)
@@ -17,10 +24,12 @@ Steps involved in this project:
 ~ Finalizing the model (by analysing the model with best value of r_square and RMSE score)
 ~ Predicting the model (make prediction on new / unseen data)
 ~ Saving or loading the model for future use.
+```
 
-----------
-RESULTS:
-Testing performance of et
+
+# RESULTS:
+```
+## Testing performance of et
 RMSE: 0.85
 R2: 0.94
 Testing performance of huber
@@ -38,8 +47,10 @@ R2: 0.91
 Testing performance of blender
 RMSE: 0.77
 R2: 0.95
+```
 ------------------------------------------------------------
-Training performance of et
+## Training performance of et
+```
 RMSE: 0.54
 R2: 0.96
 Training performance of catboost
@@ -57,10 +68,10 @@ R2: 0.97
 Training performance of xgboost
 RMSE: 0.33
 R2: 0.99
-
-
-
+```
+```
 et = extra tree regressor
 br = Bayesian Ridge
 In Blending I used Huber Regression,XGBoost Regreesion,Extra Tree Regressor and Bayesian Ridge Regressor
+```
 
